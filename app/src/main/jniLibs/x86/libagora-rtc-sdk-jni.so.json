@@ -1,0 +1,1447 @@
+{
+	"architecture" : 
+	{
+		"bitSize" : 32,
+		"endian" : "little",
+		"name" : "x86 (or later and compatible)"
+	},
+	"classes" : [],
+	"date" : "2019-05-05",
+	"decompParams" : 
+	{
+		"abiPaths" : [],
+		"frontendFunctions" : [],
+		"keepAllFuncs" : false,
+		"libraryTypeInfoPaths" : 
+		[
+			"D:/retdec/bin/../share/retdec/support/generic/types/arm.json",
+			"D:/retdec/bin/../share/retdec/support/generic/types/cstdlib.json",
+			"D:/retdec/bin/../share/retdec/support/generic/types/linux.json",
+			"D:/retdec/bin/../share/retdec/support/generic/types/windows.json",
+			"D:/retdec/bin/../share/retdec/support/generic/types/windrivers.json"
+		],
+		"ordinalNumDirectory" : "D:\\retdec\\bin\\..\\share\\retdec\\support\\x86\\ords\\",
+		"outputFile" : "F:\\OLD\\downloads\\Agora_Native_SDK_for_Android_v2_4_0_FULL\\Agora_Native_SDK_for_Android_FULL\\libs\\x86\\libagora-rtc-sdk-jni.so.c",
+		"selectedDecodeOnly" : false,
+		"selectedFunctions" : [],
+		"selectedNotFoundFncs" : [],
+		"selectedRanges" : [],
+		"staticSignPaths" : 
+		[
+			"D:/retdec/bin/../share/retdec/support/generic/yara_patterns/static-code/elf/32/le/x86/x86-gcc-4.7.2.yarac"
+		],
+		"userStaticSignPaths" : [],
+		"verboseOut" : false
+	},
+	"fileFormat" : "elf32",
+	"fileType" : "shared",
+	"functions" : [],
+	"globals" : [],
+	"inputFile" : "F:\\OLD\\downloads\\Agora_Native_SDK_for_Android_v2_4_0_FULL\\Agora_Native_SDK_for_Android_FULL\\libs\\x86\\libagora-rtc-sdk-jni.so",
+	"languages" : [],
+	"patterns" : 
+	[
+		{
+			"description" : "zinflate_distanceStarts (32-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb57480",
+					"entrySize" : 4,
+					"offset" : "0xb57480",
+					"size" : 120,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xb5e1c0",
+					"entrySize" : 4,
+					"offset" : "0xb5e1c0",
+					"size" : 120,
+					"type" : "integral"
+				}
+			],
+			"name" : "zinflate_distanceStarts",
+			"type" : "crypto",
+			"yaraRule" : "zinflate_distanceStarts__32_lil_120_"
+		},
+		{
+			"description" : "sfb_24_960 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe4442",
+					"entrySize" : 2,
+					"offset" : "0xbe4442",
+					"size" : 94,
+					"type" : "integral"
+				}
+			],
+			"name" : "sfb_24_960",
+			"type" : "crypto",
+			"yaraRule" : "sfb_24_960__16_lil_94_"
+		},
+		{
+			"description" : "Adler_CRC32__0x01c26a37_ (32-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb8f380",
+					"entrySize" : 4,
+					"offset" : "0xb8f380",
+					"size" : 1024,
+					"type" : "integral"
+				}
+			],
+			"name" : "Adler_CRC32__0x01c26a37_",
+			"type" : "crypto",
+			"yaraRule" : "Adler_CRC32__0x01c26a37___32_lil_1024_"
+		},
+		{
+			"description" : "libavcodec_aac_codes11 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe98c0",
+					"entrySize" : 2,
+					"offset" : "0xbe98c0",
+					"size" : 578,
+					"type" : "integral"
+				}
+			],
+			"name" : "libavcodec_aac_codes11",
+			"type" : "crypto",
+			"yaraRule" : "libavcodec_aac_codes11__16_lil_578_"
+		},
+		{
+			"description" : "zinflate_lengthExtraBits (32-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb57600",
+					"entrySize" : 4,
+					"offset" : "0xb57600",
+					"size" : 116,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xb5e040",
+					"entrySize" : 4,
+					"offset" : "0xb5e040",
+					"size" : 116,
+					"type" : "integral"
+				}
+			],
+			"name" : "zinflate_lengthExtraBits",
+			"type" : "crypto",
+			"yaraRule" : "zinflate_lengthExtraBits__32_lil_116_"
+		},
+		{
+			"description" : "libavcodec_h264_tc0_table (8-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbbb880",
+					"entrySize" : 1,
+					"offset" : "0xbbb880",
+					"size" : 624,
+					"type" : "integral"
+				}
+			],
+			"name" : "libavcodec_h264_tc0_table",
+			"type" : "crypto",
+			"yaraRule" : "libavcodec_h264_tc0_table__8_byt_624_"
+		},
+		{
+			"description" : "sfb_32_512 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe4262",
+					"entrySize" : 2,
+					"offset" : "0xbe4262",
+					"size" : 74,
+					"type" : "integral"
+				}
+			],
+			"name" : "sfb_32_512",
+			"type" : "crypto",
+			"yaraRule" : "sfb_32_512__16_lil_74_"
+		},
+		{
+			"description" : "unlzx_table_three (32-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb57740",
+					"entrySize" : 4,
+					"offset" : "0xb57740",
+					"size" : 64,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xb5da80",
+					"entrySize" : 4,
+					"offset" : "0xb5da80",
+					"size" : 64,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xbe0360",
+					"entrySize" : 4,
+					"offset" : "0xbe0360",
+					"size" : 64,
+					"type" : "integral"
+				}
+			],
+			"name" : "unlzx_table_three",
+			"type" : "crypto",
+			"yaraRule" : "unlzx_table_three__32_lil_64_"
+		},
+		{
+			"description" : "MPEG_2_AAC_Fraunhofer_sfb_8_120 (16-bit, big endian)",
+			"endian" : "big",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe4321",
+					"entrySize" : 2,
+					"offset" : "0xbe4321",
+					"size" : 30,
+					"type" : "integral"
+				}
+			],
+			"name" : "MPEG_2_AAC_Fraunhofer_sfb_8_120",
+			"type" : "crypto",
+			"yaraRule" : "MPEG_2_AAC_Fraunhofer_sfb_8_120__16_big_30_"
+		},
+		{
+			"description" : "sfb_48_512 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe42c2",
+					"entrySize" : 2,
+					"offset" : "0xbe42c2",
+					"size" : 72,
+					"type" : "integral"
+				}
+			],
+			"name" : "sfb_48_512",
+			"type" : "crypto",
+			"yaraRule" : "sfb_48_512__16_lil_72_"
+		},
+		{
+			"description" : "sfb_16_1024 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe4662",
+					"entrySize" : 2,
+					"offset" : "0xbe4662",
+					"size" : 86,
+					"type" : "integral"
+				}
+			],
+			"name" : "sfb_16_1024",
+			"type" : "crypto",
+			"yaraRule" : "sfb_16_1024__16_lil_86_"
+		},
+		{
+			"description" : "B64EncodeTable (8-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb2c4cc",
+					"entrySize" : 1,
+					"offset" : "0xb2c4cc",
+					"size" : 64,
+					"type" : "integral"
+				}
+			],
+			"name" : "B64EncodeTable",
+			"type" : "crypto",
+			"yaraRule" : "B64EncodeTable__8_byt_ASC_64_"
+		},
+		{
+			"description" : "sfb_8_1024 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe45e2",
+					"entrySize" : 2,
+					"offset" : "0xbe45e2",
+					"size" : 80,
+					"type" : "integral"
+				}
+			],
+			"name" : "sfb_8_1024",
+			"type" : "crypto",
+			"yaraRule" : "sfb_8_1024__16_lil_80_"
+		},
+		{
+			"description" : "generic_sampling_rate_table__96000____8000_ (32-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbd85e0",
+					"entrySize" : 4,
+					"offset" : "0xbd85e0",
+					"size" : 48,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xbd8720",
+					"entrySize" : 4,
+					"offset" : "0xbd8720",
+					"size" : 48,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xbd8760",
+					"entrySize" : 4,
+					"offset" : "0xbd8760",
+					"size" : 48,
+					"type" : "integral"
+				}
+			],
+			"name" : "generic_sampling_rate_table__96000____8000_",
+			"type" : "crypto",
+			"yaraRule" : "generic_sampling_rate_table__96000____8000___32_lil_48_"
+		},
+		{
+			"description" : "zinflate_distanceExtraBits (32-bit, big endian)",
+			"endian" : "big",
+			"matches" : 
+			[
+				{
+					"address" : "0xb574fd",
+					"entrySize" : 4,
+					"offset" : "0xb574fd",
+					"size" : 120,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xb5e13d",
+					"entrySize" : 4,
+					"offset" : "0xb5e13d",
+					"size" : 120,
+					"type" : "integral"
+				}
+			],
+			"name" : "zinflate_distanceExtraBits",
+			"type" : "crypto",
+			"yaraRule" : "zinflate_distanceExtraBits__32_big_120_"
+		},
+		{
+			"description" : "Adler_CRC32__0x191b3141_ (32-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb8ef80",
+					"entrySize" : 4,
+					"offset" : "0xb8ef80",
+					"size" : 1024,
+					"type" : "integral"
+				}
+			],
+			"name" : "Adler_CRC32__0x191b3141_",
+			"type" : "crypto",
+			"yaraRule" : "Adler_CRC32__0x191b3141___32_lil_1024_"
+		},
+		{
+			"description" : "libavcodec_ff_zigzag_direct (8-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb6f9c0",
+					"entrySize" : 1,
+					"offset" : "0xb6f9c0",
+					"size" : 64,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xbc7180",
+					"entrySize" : 1,
+					"offset" : "0xbc7180",
+					"size" : 64,
+					"type" : "integral"
+				}
+			],
+			"name" : "libavcodec_ff_zigzag_direct",
+			"type" : "crypto",
+			"yaraRule" : "libavcodec_ff_zigzag_direct__8_byt_64_"
+		},
+		{
+			"description" : "libavcodec_ff_interleaved_ue_golomb_vlc_code (8-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb83d00",
+					"entrySize" : 1,
+					"offset" : "0xb83d00",
+					"size" : 256,
+					"type" : "integral"
+				}
+			],
+			"name" : "libavcodec_ff_interleaved_ue_golomb_vlc_code",
+			"type" : "crypto",
+			"yaraRule" : "libavcodec_ff_interleaved_ue_golomb_vlc_code__8_byt_256_"
+		},
+		{
+			"description" : "ff_sqrt_tab (8-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbc7ac0",
+					"entrySize" : 1,
+					"offset" : "0xbc7ac0",
+					"size" : 256,
+					"type" : "integral"
+				}
+			],
+			"name" : "ff_sqrt_tab",
+			"type" : "crypto",
+			"yaraRule" : "ff_sqrt_tab__8_byt_256_"
+		},
+		{
+			"description" : "libavcodec_ff_aac_scalefactor_code (32-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe96c0",
+					"entrySize" : 4,
+					"offset" : "0xbe96c0",
+					"size" : 484,
+					"type" : "integral"
+				}
+			],
+			"name" : "libavcodec_ff_aac_scalefactor_code",
+			"type" : "crypto",
+			"yaraRule" : "libavcodec_ff_aac_scalefactor_code__32_lil_484_"
+		},
+		{
+			"description" : "base64_decoding_table (8-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb57200",
+					"entrySize" : 1,
+					"offset" : "0xb57200",
+					"size" : 128,
+					"type" : "integral"
+				}
+			],
+			"name" : "base64_decoding_table",
+			"type" : "crypto",
+			"yaraRule" : "base64_decoding_table__8_byt_128_"
+		},
+		{
+			"description" : "Generic_bitmask_table (32-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe0360",
+					"entrySize" : 4,
+					"offset" : "0xbe0360",
+					"size" : 128,
+					"type" : "integral"
+				}
+			],
+			"name" : "Generic_bitmask_table",
+			"type" : "crypto",
+			"yaraRule" : "Generic_bitmask_table__32_lil_128_"
+		},
+		{
+			"description" : "sfb_32_480 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe4162",
+					"entrySize" : 2,
+					"offset" : "0xbe4162",
+					"size" : 74,
+					"type" : "integral"
+				}
+			],
+			"name" : "sfb_32_480",
+			"type" : "crypto",
+			"yaraRule" : "sfb_32_480__16_lil_74_"
+		},
+		{
+			"description" : "sfb_48_960_and_sfb_32_960 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe44a2",
+					"entrySize" : 2,
+					"offset" : "0xbe44a2",
+					"size" : 100,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xbe4542",
+					"entrySize" : 2,
+					"offset" : "0xbe4542",
+					"size" : 100,
+					"type" : "integral"
+				}
+			],
+			"name" : "sfb_48_960_and_sfb_32_960",
+			"type" : "crypto",
+			"yaraRule" : "sfb_48_960_and_sfb_32_960__16_lil_100_"
+		},
+		{
+			"description" : "CRC_16_IBM_poly_0x8005 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe0160",
+					"entrySize" : 2,
+					"offset" : "0xbe0160",
+					"size" : 512,
+					"type" : "integral"
+				}
+			],
+			"name" : "CRC_16_IBM_poly_0x8005",
+			"type" : "crypto",
+			"yaraRule" : "CRC_16_IBM_poly_0x8005__16_lil_refl_False_"
+		},
+		{
+			"description" : "libavcodec_H_26L_H_264_AVC_JVT_14496_10_ff_h264_norm_shift (8-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbbeb00",
+					"entrySize" : 1,
+					"offset" : "0xbbeb00",
+					"size" : 512,
+					"type" : "integral"
+				}
+			],
+			"name" : "libavcodec_H_26L_H_264_AVC_JVT_14496_10_ff_h264_norm_shift",
+			"type" : "crypto",
+			"yaraRule" : "libavcodec_H_26L_H_264_AVC_JVT_14496_10_ff_h264_norm_shift__8_byt_512_"
+		},
+		{
+			"description" : "zinflate_lengthStarts (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbc5200",
+					"entrySize" : 2,
+					"offset" : "0xbc5200",
+					"size" : 58,
+					"type" : "integral"
+				}
+			],
+			"name" : "zinflate_lengthStarts",
+			"type" : "crypto",
+			"yaraRule" : "zinflate_lengthStarts__16_lil_58_"
+		},
+		{
+			"description" : "zinflate_lengthExtraBits (32-bit, big endian)",
+			"endian" : "big",
+			"matches" : 
+			[
+				{
+					"address" : "0xb575fd",
+					"entrySize" : 4,
+					"offset" : "0xb575fd",
+					"size" : 116,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xb5e03d",
+					"entrySize" : 4,
+					"offset" : "0xb5e03d",
+					"size" : 116,
+					"type" : "integral"
+				}
+			],
+			"name" : "zinflate_lengthExtraBits",
+			"type" : "crypto",
+			"yaraRule" : "zinflate_lengthExtraBits__32_big_116_"
+		},
+		{
+			"description" : "zinflate_distanceStarts (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbc5180",
+					"entrySize" : 2,
+					"offset" : "0xbc5180",
+					"size" : 60,
+					"type" : "integral"
+				}
+			],
+			"name" : "zinflate_distanceStarts",
+			"type" : "crypto",
+			"yaraRule" : "zinflate_distanceStarts__16_lil_60_"
+		},
+		{
+			"description" : "sfb_16_960 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe43c2",
+					"entrySize" : 2,
+					"offset" : "0xbe43c2",
+					"size" : 84,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xbe4662",
+					"entrySize" : 2,
+					"offset" : "0xbe4662",
+					"size" : 84,
+					"type" : "integral"
+				}
+			],
+			"name" : "sfb_16_960",
+			"type" : "crypto",
+			"yaraRule" : "sfb_16_960__16_lil_84_"
+		},
+		{
+			"description" : "MPEG_2_NBC_Fraunhofer_sfb_16_120 (16-bit, big endian)",
+			"endian" : "big",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe43a1",
+					"entrySize" : 2,
+					"offset" : "0xbe43a1",
+					"size" : 30,
+					"type" : "integral"
+				}
+			],
+			"name" : "MPEG_2_NBC_Fraunhofer_sfb_16_120",
+			"type" : "crypto",
+			"yaraRule" : "MPEG_2_NBC_Fraunhofer_sfb_16_120__16_big_30_"
+		},
+		{
+			"description" : "sfb_24_512 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe4222",
+					"entrySize" : 2,
+					"offset" : "0xbe4222",
+					"size" : 62,
+					"type" : "integral"
+				}
+			],
+			"name" : "sfb_24_512",
+			"type" : "crypto",
+			"yaraRule" : "sfb_24_512__16_lil_62_"
+		},
+		{
+			"description" : "sfb_24_1024 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe46e2",
+					"entrySize" : 2,
+					"offset" : "0xbe46e2",
+					"size" : 94,
+					"type" : "integral"
+				}
+			],
+			"name" : "sfb_24_1024",
+			"type" : "crypto",
+			"yaraRule" : "sfb_24_1024__16_lil_94_"
+		},
+		{
+			"description" : "MPEG_2_NBC_sfb_24_128__avcodec___faad_ (16-bit, big endian)",
+			"endian" : "big",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe46c1",
+					"entrySize" : 2,
+					"offset" : "0xbe46c1",
+					"size" : 30,
+					"type" : "integral"
+				}
+			],
+			"name" : "MPEG_2_NBC_sfb_24_128__avcodec___faad_",
+			"type" : "crypto",
+			"yaraRule" : "MPEG_2_NBC_sfb_24_128__avcodec___faad___16_big_30_"
+		},
+		{
+			"description" : "Bit_count_256___popcount_tab__popullation_count_ (8-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb84b80",
+					"entrySize" : 1,
+					"offset" : "0xb84b80",
+					"size" : 256,
+					"type" : "integral"
+				}
+			],
+			"name" : "Bit_count_256___popcount_tab__popullation_count_",
+			"type" : "crypto",
+			"yaraRule" : "Bit_count_256___popcount_tab__popullation_count___8_byt_256_"
+		},
+		{
+			"description" : "CRC_1_poly_0x1 (8-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb563f0",
+					"entrySize" : 1,
+					"offset" : "0xb563f0",
+					"size" : 256,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xbc75c0",
+					"entrySize" : 1,
+					"offset" : "0xbc75c0",
+					"size" : 256,
+					"type" : "integral"
+				}
+			],
+			"name" : "CRC_1_poly_0x1",
+			"type" : "crypto",
+			"yaraRule" : "CRC_1_poly_0x1__8_byt_refl_True_"
+		},
+		{
+			"description" : "Adler_CRC32__0x191b3141_ (32-bit, big endian)",
+			"endian" : "big",
+			"matches" : 
+			[
+				{
+					"address" : "0xb8ff80",
+					"entrySize" : 4,
+					"offset" : "0xb8ff80",
+					"size" : 1024,
+					"type" : "integral"
+				}
+			],
+			"name" : "Adler_CRC32__0x191b3141_",
+			"type" : "crypto",
+			"yaraRule" : "Adler_CRC32__0x191b3141___32_big_1024_"
+		},
+		{
+			"description" : "MPEG_2_NBC_Fraunhofer_sfb_32_120 (16-bit, big endian)",
+			"endian" : "big",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe4505",
+					"entrySize" : 2,
+					"offset" : "0xbe4505",
+					"size" : 28,
+					"type" : "integral"
+				}
+			],
+			"name" : "MPEG_2_NBC_Fraunhofer_sfb_32_120",
+			"type" : "crypto",
+			"yaraRule" : "MPEG_2_NBC_Fraunhofer_sfb_32_120__16_big_28_"
+		},
+		{
+			"description" : "libavcodec_swb_offset_1024_32 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe4740",
+					"entrySize" : 2,
+					"offset" : "0xbe4740",
+					"size" : 104,
+					"type" : "integral"
+				}
+			],
+			"name" : "libavcodec_swb_offset_1024_32",
+			"type" : "crypto",
+			"yaraRule" : "libavcodec_swb_offset_1024_32__16_lil_104_"
+		},
+		{
+			"description" : "MPEG_2_NBC_sfb_16_128__avcodec___faad_ (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe4642",
+					"entrySize" : 2,
+					"offset" : "0xbe4642",
+					"size" : 30,
+					"type" : "integral"
+				}
+			],
+			"name" : "MPEG_2_NBC_sfb_16_128__avcodec___faad_",
+			"type" : "crypto",
+			"yaraRule" : "MPEG_2_NBC_sfb_16_128__avcodec___faad___16_lil_30_"
+		},
+		{
+			"description" : "zinflate_lengthStarts (32-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb57580",
+					"entrySize" : 4,
+					"offset" : "0xb57580",
+					"size" : 116,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xb5e0c0",
+					"entrySize" : 4,
+					"offset" : "0xb5e0c0",
+					"size" : 116,
+					"type" : "integral"
+				}
+			],
+			"name" : "zinflate_lengthStarts",
+			"type" : "crypto",
+			"yaraRule" : "zinflate_lengthStarts__32_lil_116_"
+		},
+		{
+			"description" : "MPEG_2_NBC_sfb_8_128__avcodec___faad_ (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe45c2",
+					"entrySize" : 2,
+					"offset" : "0xbe45c2",
+					"size" : 30,
+					"type" : "integral"
+				}
+			],
+			"name" : "MPEG_2_NBC_sfb_8_128__avcodec___faad_",
+			"type" : "crypto",
+			"yaraRule" : "MPEG_2_NBC_sfb_8_128__avcodec___faad___16_lil_30_"
+		},
+		{
+			"description" : "MPEG_2_NBC_sfb_16_128__avcodec___faad_ (16-bit, big endian)",
+			"endian" : "big",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe4641",
+					"entrySize" : 2,
+					"offset" : "0xbe4641",
+					"size" : 30,
+					"type" : "integral"
+				}
+			],
+			"name" : "MPEG_2_NBC_sfb_16_128__avcodec___faad_",
+			"type" : "crypto",
+			"yaraRule" : "MPEG_2_NBC_sfb_16_128__avcodec___faad___16_big_30_"
+		},
+		{
+			"description" : "MPEG_2_NBC_Fraunhofer_sfb_24_120 (16-bit, big endian)",
+			"endian" : "big",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe4421",
+					"entrySize" : 2,
+					"offset" : "0xbe4421",
+					"size" : 30,
+					"type" : "integral"
+				}
+			],
+			"name" : "MPEG_2_NBC_Fraunhofer_sfb_24_120",
+			"type" : "crypto",
+			"yaraRule" : "MPEG_2_NBC_Fraunhofer_sfb_24_120__16_big_30_"
+		},
+		{
+			"description" : "padding_used_in_hashing_algorithms__0x80_0_____0_ (8-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb860ce",
+					"entrySize" : 1,
+					"offset" : "0xb860ce",
+					"size" : 64,
+					"type" : "integral"
+				}
+			],
+			"name" : "padding_used_in_hashing_algorithms__0x80_0_____0_",
+			"type" : "crypto",
+			"yaraRule" : "padding_used_in_hashing_algorithms__0x80_0_____0___8_byt_64_"
+		},
+		{
+			"description" : "MPEG_2_NBC_Fraunhofer_sfb_32_120 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe4506",
+					"entrySize" : 2,
+					"offset" : "0xbe4506",
+					"size" : 28,
+					"type" : "integral"
+				}
+			],
+			"name" : "MPEG_2_NBC_Fraunhofer_sfb_32_120",
+			"type" : "crypto",
+			"yaraRule" : "MPEG_2_NBC_Fraunhofer_sfb_32_120__16_lil_28_"
+		},
+		{
+			"description" : "sfb_48_1024 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe47e2",
+					"entrySize" : 2,
+					"offset" : "0xbe47e2",
+					"size" : 98,
+					"type" : "integral"
+				}
+			],
+			"name" : "sfb_48_1024",
+			"type" : "crypto",
+			"yaraRule" : "sfb_48_1024__16_lil_98_"
+		},
+		{
+			"description" : "bitmask (32-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe0364",
+					"entrySize" : 4,
+					"offset" : "0xbe0364",
+					"size" : 128,
+					"type" : "integral"
+				}
+			],
+			"name" : "bitmask",
+			"type" : "crypto",
+			"yaraRule" : "bitmask__32_lil_128_"
+		},
+		{
+			"description" : "libavcodec_h264_cabac_context_init_I (8-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb7b680",
+					"entrySize" : 1,
+					"offset" : "0xb7b680",
+					"size" : 920,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xbbe180",
+					"entrySize" : 1,
+					"offset" : "0xbbe180",
+					"size" : 920,
+					"type" : "integral"
+				}
+			],
+			"name" : "libavcodec_h264_cabac_context_init_I",
+			"type" : "crypto",
+			"yaraRule" : "libavcodec_h264_cabac_context_init_I__8_byt_920_"
+		},
+		{
+			"description" : "CRC_16_CCITT_poly_0x1021 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbdff60",
+					"entrySize" : 2,
+					"offset" : "0xbdff60",
+					"size" : 512,
+					"type" : "integral"
+				}
+			],
+			"name" : "CRC_16_CCITT_poly_0x1021",
+			"type" : "crypto",
+			"yaraRule" : "CRC_16_CCITT_poly_0x1021__16_lil_refl_False_"
+		},
+		{
+			"description" : "MPEG_2_NBC_sfb_48_128__avcodec___faad_ (16-bit, big endian)",
+			"endian" : "big",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe47a9",
+					"entrySize" : 2,
+					"offset" : "0xbe47a9",
+					"size" : 28,
+					"type" : "integral"
+				}
+			],
+			"name" : "MPEG_2_NBC_sfb_48_128__avcodec___faad_",
+			"type" : "crypto",
+			"yaraRule" : "MPEG_2_NBC_sfb_48_128__avcodec___faad___16_big_28_"
+		},
+		{
+			"description" : "Adler_CRC32__0xb8bc6765_ (32-bit, big endian)",
+			"endian" : "big",
+			"matches" : 
+			[
+				{
+					"address" : "0xb90780",
+					"entrySize" : 4,
+					"offset" : "0xb90780",
+					"size" : 1024,
+					"type" : "integral"
+				}
+			],
+			"name" : "Adler_CRC32__0xb8bc6765_",
+			"type" : "crypto",
+			"yaraRule" : "Adler_CRC32__0xb8bc6765___32_big_1024_"
+		},
+		{
+			"description" : "CRC_32_IEEE_802_3_poly_0x04C11DB7 (32-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb5db40",
+					"entrySize" : 4,
+					"offset" : "0xb5db40",
+					"size" : 1024,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xb8eb80",
+					"entrySize" : 4,
+					"offset" : "0xb8eb80",
+					"size" : 1024,
+					"type" : "integral"
+				}
+			],
+			"name" : "CRC_32_IEEE_802_3_poly_0x04C11DB7",
+			"type" : "crypto",
+			"yaraRule" : "CRC_32_IEEE_802_3_poly_0x04C11DB7__32_lil_refl_True_"
+		},
+		{
+			"description" : "libavcodec_inverse_table (32-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbc7bc0",
+					"entrySize" : 4,
+					"offset" : "0xbc7bc0",
+					"size" : 1024,
+					"type" : "integral"
+				}
+			],
+			"name" : "libavcodec_inverse_table",
+			"type" : "crypto",
+			"yaraRule" : "libavcodec_inverse_table__32_lil_1024_"
+		},
+		{
+			"description" : "mp3lib_huffman_tab_c1 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbc8420",
+					"entrySize" : 2,
+					"offset" : "0xbc8420",
+					"size" : 62,
+					"type" : "integral"
+				}
+			],
+			"name" : "mp3lib_huffman_tab_c1",
+			"type" : "crypto",
+			"yaraRule" : "mp3lib_huffman_tab_c1__16_lil_62_"
+		},
+		{
+			"description" : "libavcodec_ff_interleaved_se_golomb_vlc_code (8-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb83c00",
+					"entrySize" : 1,
+					"offset" : "0xb83c00",
+					"size" : 256,
+					"type" : "integral"
+				}
+			],
+			"name" : "libavcodec_ff_interleaved_se_golomb_vlc_code",
+			"type" : "crypto",
+			"yaraRule" : "libavcodec_ff_interleaved_se_golomb_vlc_code__8_byt_256_"
+		},
+		{
+			"description" : "Adler_CRC32__0x01c26a37_ (32-bit, big endian)",
+			"endian" : "big",
+			"matches" : 
+			[
+				{
+					"address" : "0xb90380",
+					"entrySize" : 4,
+					"offset" : "0xb90380",
+					"size" : 1024,
+					"type" : "integral"
+				}
+			],
+			"name" : "Adler_CRC32__0x01c26a37_",
+			"type" : "crypto",
+			"yaraRule" : "Adler_CRC32__0x01c26a37___32_big_1024_"
+		},
+		{
+			"description" : "MPEG_2_NBC_sfb_24_128__avcodec___faad_ (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe46c2",
+					"entrySize" : 2,
+					"offset" : "0xbe46c2",
+					"size" : 30,
+					"type" : "integral"
+				}
+			],
+			"name" : "MPEG_2_NBC_sfb_24_128__avcodec___faad_",
+			"type" : "crypto",
+			"yaraRule" : "MPEG_2_NBC_sfb_24_128__avcodec___faad___16_lil_30_"
+		},
+		{
+			"description" : "MPEG_2_AAC_Fraunhofer_sfb_8_120 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe4322",
+					"entrySize" : 2,
+					"offset" : "0xbe4322",
+					"size" : 30,
+					"type" : "integral"
+				}
+			],
+			"name" : "MPEG_2_AAC_Fraunhofer_sfb_8_120",
+			"type" : "crypto",
+			"yaraRule" : "MPEG_2_AAC_Fraunhofer_sfb_8_120__16_lil_30_"
+		},
+		{
+			"description" : "ACSS_reverse_sbox (8-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb81280",
+					"entrySize" : 1,
+					"offset" : "0xb81280",
+					"size" : 256,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xbc7080",
+					"entrySize" : 1,
+					"offset" : "0xbc7080",
+					"size" : 256,
+					"type" : "integral"
+				}
+			],
+			"name" : "ACSS_reverse_sbox",
+			"type" : "crypto",
+			"yaraRule" : "ACSS_reverse_sbox__8_byt_256_"
+		},
+		{
+			"description" : "MPEG_2_NBC_Fraunhofer_sfb_16_120 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe43a2",
+					"entrySize" : 2,
+					"offset" : "0xbe43a2",
+					"size" : 30,
+					"type" : "integral"
+				}
+			],
+			"name" : "MPEG_2_NBC_Fraunhofer_sfb_16_120",
+			"type" : "crypto",
+			"yaraRule" : "MPEG_2_NBC_Fraunhofer_sfb_16_120__16_lil_30_"
+		},
+		{
+			"description" : "Adler_CRC32__0xb8bc6765_ (32-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb8f780",
+					"entrySize" : 4,
+					"offset" : "0xb8f780",
+					"size" : 1024,
+					"type" : "integral"
+				}
+			],
+			"name" : "Adler_CRC32__0xb8bc6765_",
+			"type" : "crypto",
+			"yaraRule" : "Adler_CRC32__0xb8bc6765___32_lil_1024_"
+		},
+		{
+			"description" : "MPEG_2_NBC_Fraunhofer_sfb_24_120 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe4422",
+					"entrySize" : 2,
+					"offset" : "0xbe4422",
+					"size" : 30,
+					"type" : "integral"
+				}
+			],
+			"name" : "MPEG_2_NBC_Fraunhofer_sfb_24_120",
+			"type" : "crypto",
+			"yaraRule" : "MPEG_2_NBC_Fraunhofer_sfb_24_120__16_lil_30_"
+		},
+		{
+			"description" : "sfb_48_480 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe41c2",
+					"entrySize" : 2,
+					"offset" : "0xbe41c2",
+					"size" : 70,
+					"type" : "integral"
+				}
+			],
+			"name" : "sfb_48_480",
+			"type" : "crypto",
+			"yaraRule" : "sfb_48_480__16_lil_70_"
+		},
+		{
+			"description" : "MPEG_2_NBC_sfb_8_128__avcodec___faad_ (16-bit, big endian)",
+			"endian" : "big",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe45c1",
+					"entrySize" : 2,
+					"offset" : "0xbe45c1",
+					"size" : 30,
+					"type" : "integral"
+				}
+			],
+			"name" : "MPEG_2_NBC_sfb_8_128__avcodec___faad_",
+			"type" : "crypto",
+			"yaraRule" : "MPEG_2_NBC_sfb_8_128__avcodec___faad___16_big_30_"
+		},
+		{
+			"description" : "mp3lib_huffman_tab_c0 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbc8460",
+					"entrySize" : 2,
+					"offset" : "0xbc8460",
+					"size" : 62,
+					"type" : "integral"
+				}
+			],
+			"name" : "mp3lib_huffman_tab_c0",
+			"type" : "crypto",
+			"yaraRule" : "mp3lib_huffman_tab_c0__16_lil_62_"
+		},
+		{
+			"description" : "sfb_24_480 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe4122",
+					"entrySize" : 2,
+					"offset" : "0xbe4122",
+					"size" : 60,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xbe4222",
+					"entrySize" : 2,
+					"offset" : "0xbe4222",
+					"size" : 60,
+					"type" : "integral"
+				}
+			],
+			"name" : "sfb_24_480",
+			"type" : "crypto",
+			"yaraRule" : "sfb_24_480__16_lil_60_"
+		},
+		{
+			"description" : "mp3lib_intwinbase (32-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbc1420",
+					"entrySize" : 4,
+					"offset" : "0xbc1420",
+					"size" : 1028,
+					"type" : "integral"
+				}
+			],
+			"name" : "mp3lib_intwinbase",
+			"type" : "crypto",
+			"yaraRule" : "mp3lib_intwinbase__32_lil_1028_"
+		},
+		{
+			"description" : "MPEG_2_NBC_sfb_48_128__avcodec___faad_ (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe47aa",
+					"entrySize" : 2,
+					"offset" : "0xbe47aa",
+					"size" : 28,
+					"type" : "integral"
+				}
+			],
+			"name" : "MPEG_2_NBC_sfb_48_128__avcodec___faad_",
+			"type" : "crypto",
+			"yaraRule" : "MPEG_2_NBC_sfb_48_128__avcodec___faad___16_lil_28_"
+		},
+		{
+			"description" : "zinflate_distanceExtraBits (32-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb57500",
+					"entrySize" : 4,
+					"offset" : "0xb57500",
+					"size" : 120,
+					"type" : "integral"
+				},
+				{
+					"address" : "0xb5e140",
+					"entrySize" : 4,
+					"offset" : "0xb5e140",
+					"size" : 120,
+					"type" : "integral"
+				}
+			],
+			"name" : "zinflate_distanceExtraBits",
+			"type" : "crypto",
+			"yaraRule" : "zinflate_distanceExtraBits__32_lil_120_"
+		},
+		{
+			"description" : "libavcodec_ff_interleaved_dirac_golomb_vlc_code (8-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xb83b00",
+					"entrySize" : 1,
+					"offset" : "0xb83b00",
+					"size" : 256,
+					"type" : "integral"
+				}
+			],
+			"name" : "libavcodec_ff_interleaved_dirac_golomb_vlc_code",
+			"type" : "crypto",
+			"yaraRule" : "libavcodec_ff_interleaved_dirac_golomb_vlc_code__8_byt_256_"
+		},
+		{
+			"description" : "CRC_32_IEEE_802_3_poly_0x04C11DB7 (32-bit, big endian)",
+			"endian" : "big",
+			"matches" : 
+			[
+				{
+					"address" : "0xb8fb80",
+					"entrySize" : 4,
+					"offset" : "0xb8fb80",
+					"size" : 1024,
+					"type" : "integral"
+				}
+			],
+			"name" : "CRC_32_IEEE_802_3_poly_0x04C11DB7",
+			"type" : "crypto",
+			"yaraRule" : "CRC_32_IEEE_802_3_poly_0x04C11DB7__32_big_refl_True_"
+		},
+		{
+			"description" : "sfb_8_960 (16-bit, little endian)",
+			"endian" : "little",
+			"matches" : 
+			[
+				{
+					"address" : "0xbe4342",
+					"entrySize" : 2,
+					"offset" : "0xbe4342",
+					"size" : 80,
+					"type" : "integral"
+				}
+			],
+			"name" : "sfb_8_960",
+			"type" : "crypto",
+			"yaraRule" : "sfb_8_960__16_lil_80_"
+		}
+	],
+	"registers" : [],
+	"segments" : [],
+	"structures" : [],
+	"time" : "23:31:52",
+	"tools" : 
+	[
+		{
+			"heuristics" : true,
+			"identicalSignificantNibbles" : 0,
+			"name" : "gold",
+			"percentage" : 0.0,
+			"totalSignificantNibbles" : 0,
+			"type" : "linker",
+			"version" : "1.11"
+		},
+		{
+			"heuristics" : true,
+			"identicalSignificantNibbles" : 0,
+			"name" : "gcc",
+			"percentage" : 0.0,
+			"totalSignificantNibbles" : 0,
+			"type" : "compiler",
+			"version" : "4.8"
+		},
+		{
+			"heuristics" : true,
+			"identicalSignificantNibbles" : 0,
+			"name" : "gcc",
+			"percentage" : 0.0,
+			"totalSignificantNibbles" : 0,
+			"type" : "compiler",
+			"version" : "4.9"
+		}
+	],
+	"vtables" : []
+}
